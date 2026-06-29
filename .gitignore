@@ -1,1 +1,17 @@
 .codegraph
+
+# Dependencies
+node_modules/
+
+# Build and coverage
+dist/
+coverage/
+
+# Logs
+npm-debug.log*
+
+# Agent / AI work artifacts
+.omo/
+.agents/
+.codex/
+research/yeoman-opencode-qwen-template-strategy-20260627/

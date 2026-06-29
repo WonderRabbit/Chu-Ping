@@ -1,0 +1,35 @@
+{
+  "name": "generator-chuping",
+  "version": "0.1.0",
+  "description": "Yeoman generator for Node 12.8 React Redux Saga applications.",
+  "license": "MIT",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "react",
+    "redux",
+    "redux-saga",
+    "webpack"
+  ],
+  "scripts": {
+    "test": "node scripts/run-tests.js",
+    "verify:generated-app": "node scripts/verify-generated-app.js"
+  },
+  "engines": {
+    "node": ">=12.8.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^4.13.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "yo": "3.1.1",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^2.2.0"
+  },
+  "overrides": {
+    "yargs": "^17.7.2"
+  }
+}
